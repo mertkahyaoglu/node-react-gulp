@@ -2,6 +2,9 @@
   "name": "node-react-gulp",
   "description": "NodeJS, ReactJS & Gulp",
   "main": "server.js",
+  "scripts": {
+    "start": "npm install && gulp"
+  },
   "dependencies": {
     "express": "^4.12.3",
     "react": "^0.13.1"

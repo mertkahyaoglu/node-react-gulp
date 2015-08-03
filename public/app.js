@@ -18,7 +18,8 @@ class Sayac extends React.Component {
       width: '120px',
       padding: '14px',
       borderRadius: '4px',
-      textAlign: 'center'
+      textAlign: 'center',
+      cursor: 'pointer'
     };
     return (
       <div style={divStyle} onClick={this.tick.bind(this)}>
